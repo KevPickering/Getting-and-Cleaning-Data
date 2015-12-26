@@ -108,6 +108,9 @@ run_analysis <- {
 	##
 	## explicitly clear out memory
 	rm(X)
-	rm(summaryTable)
 	rm(by_SubjectId_Activity)
+	##
+	## return summaryTable
+	##
+	summaryTable
 }
